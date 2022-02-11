@@ -13,3 +13,5 @@ wp-content/uploads/
 wp-content/wp-cache-config.php
 
 # https://jpcodeqa.com/q/fdae9ada8d71d981f3303ddb7e99608b
+
+.vscode
