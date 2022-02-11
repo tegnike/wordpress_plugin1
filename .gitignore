@@ -109,4 +109,4 @@ Thumbs.db
 !wp-content/plugins/example-plugin/
 !wp-content/themes/example-theme/
 
-vscode
+.vscode
