@@ -8,6 +8,7 @@ function theme_enqueue_styles() {
 add_action('admin_menu', 'custom_menu_page');
 function custom_menu_page() {
     add_menu_page('共通設定画面', '共通設定', 'manage_options', 'custom_menu_page', 'add_custom_menu_page', 'dashicons-admin-generic', 4);
+	add_action('admin_init', 'register_custom_setting');
 }
 
 function add_custom_menu_page() {
